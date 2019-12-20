@@ -12,7 +12,7 @@ def input_to_index(number)
   converted_num - 1
 end
 
-def move
+def move(board, position, char)
 
 
 end
