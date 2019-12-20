@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 user_input = gets.chomp
 converted_index = input_to_index(user_input)
-move(board, )
+move(board, converted_index, user_input)
