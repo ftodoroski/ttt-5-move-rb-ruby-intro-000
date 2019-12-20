@@ -8,3 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 user_input = gets.strip
 converted_index = input_to_index(user_input)
 move(board, converted_index)
+display_board(board)
